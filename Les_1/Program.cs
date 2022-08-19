@@ -1,5 +1,9 @@
-﻿int numberA = 9; 
-int numberB = -3; 
+﻿Console.WriteLine("Please, input your number1:");
+Console.WriteLine("Please, input your number2:");
+string numberstr;
+numberstr = Console.ReadLine();
+
+
 
 if (numberA == numberB*numberB)
 Console.WriteLine("Yes");
